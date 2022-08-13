@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+    font-size: small;
+}
+
+#cc img{
+    width:7%; 
+    height:7%;
+}
+
+.p img{
+    width: 35%;
+    height:auto;
+    margin: 4px;
+}
+
+#wimg img{
+    width:7%; 
+    height:7%;
+    margin: 4px;
+}
