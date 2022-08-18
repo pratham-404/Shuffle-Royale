@@ -10,8 +10,7 @@ shuffleDeck(deck);
 
 // no_of_players
 // let n = 6; 
-let n = prompt("Please Enter No. of Players", 5);
-n = Number(n);
+let n = Number(prompt("Please Enter No. of Players", 5));
 
 let player_cards = [];  
 
@@ -22,7 +21,7 @@ for (let i = 0; i < n; i++) {
 let community_cards = [deck[2*n+1], deck[2*n+2], deck[2*n+3], deck[2*n+5], deck[2*n+7]];
 // let community_cards = ['AS', 'AC', 'AD', 'AH', 'KS'];
 
-function flock() {
+function flop() {
     document.getElementById("cc").children[0].src = `./cards/${community_cards[0]}.svg`;
     document.getElementById("cc").children[1].src = `./cards/${community_cards[1]}.svg`;
     document.getElementById("cc").children[2].src = `./cards/${community_cards[2]}.svg`;
@@ -153,15 +152,57 @@ async function result() {
         }
         ele.appendChild(imgSet);
     }
-
-    
 }
 
-document.getElementById('flock').onclick = flock;
+document.getElementById('flop').onclick = flop;
 document.getElementById('turn').onclick = turn;
 document.getElementById('river').onclick = river;
 document.getElementById('show').onclick = show;
 document.getElementById('result').onclick = result;
+
+
+
+
+// document.getElementById('turn').onclick = function() {
+//     if (document.getElementById('flock').clicked == true) {
+//         turn()
+//     }
+//     else
+//     {
+//         alert("flock -> turn -> river -> show -> result")
+//     }
+// };
+// document.getElementById('river').onclick = function() {
+//     if (document.getElementById('turn').clicked == true) {
+//         river()
+//     }
+//     else
+//     {
+//         alert("flock -> turn -> river -> show -> result")
+//     }
+// };
+// document.getElementById('show').onclick = function() {
+//     if (document.getElementById('river').clicked == true) {
+//         show()
+//     }
+//     else
+//     {
+//         alert("flock -> turn -> river -> show -> result")
+//     }
+// };
+// document.getElementById('result').onclick = function() {
+//     if (document.getElementById('show').clicked == true) {
+//         result()
+//     }
+//     else
+//     {
+//         alert("flock -> turn -> river -> show -> result")
+//     }
+// };
+
+// document.getElementById('river').onclick = river;
+// document.getElementById('show').onclick = show;
+// document.getElementById('result').onclick = result;
 
     // 1) Determining Winner
 
