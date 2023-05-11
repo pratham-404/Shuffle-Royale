@@ -1,6 +1,6 @@
 <h1 align="Center">
     <span style="color:red">♣ ♦</span>
-    <span style="color:yellow">PokerJS</span>
+    <span style="color:yellow">Shuffle Royale</span>
     <span style="color:red">♥ ♠</span>
 </h1>
 <p align="center">
@@ -23,7 +23,7 @@ When a game starts, cards are dealt between the players. The game then sends a r
 
 ## Getting Started
 
-To get started with PokerJS, you can simply visit the [demo page](https://pratham-404.github.io/pokerJS/) hosted on GitHub Pages.
+To get started with Shuffle Royale, you can simply visit the [demo page](https://pratham-404.github.io/pokerJS/) hosted on GitHub Pages.
 
 If you prefer to run the project locally, you can follow these steps:
 
@@ -42,5 +42,5 @@ The game is played with a standard deck of 52 cards, and each player is dealt tw
 
 ## Contributing
 
-If you would like to contribute to PokerJS, you can submit a pull request with your changes. Please make sure that your code follows the project's coding standards and that it has been thoroughly tested.
-If you have any questions or feedback about PokerJS, you can contact me at [mail](prathamloya12345@gmail.com).
+If you would like to contribute to project, you can submit a pull request with your changes. Please make sure that your code follows the project's coding standards and that it has been thoroughly tested.
+If you have any questions or feedback, you can contact me at [mail](prathamloya12345@gmail.com).
