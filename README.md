@@ -7,7 +7,7 @@
     <img src="https://i.pinimg.com/originals/11/43/60/11436033e411fa09b480f70d8fa96fac.png" alt="description of image" class="center" style="height: 400px; width: 400px">
 </p>
 
-PokerJS is a web-based implementation of the popular card game Poker. It is built using modern web technologies, including HTML5, CSS3, and JavaScript. This project aims to provide a simple, fun, and interactive way to play Poker online.
+Shuffle Royale is a web-based implementation of the popular card game Poker. It is built using modern web technologies, including HTML5, CSS3, and JavaScript. This project aims to provide a simple, fun, and interactive way to play Poker online.
 
 ## Features
 
@@ -20,7 +20,6 @@ PokerJS is a web-based implementation of the popular card game Poker. It is buil
 ## How it Works
 
 When a game starts, cards are dealt between the players. The game then sends a request to a REST API to compute the winner. The API returns the winning hand and the game updates the UI to display the winner.
-
 
 ## Getting Started
 
