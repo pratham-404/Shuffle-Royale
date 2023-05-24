@@ -154,14 +154,49 @@ async function result() {
     }
 }
 
-document.getElementById('flop').onclick = flop;
-document.getElementById('turn').onclick = turn;
-document.getElementById('river').onclick = river;
-document.getElementById('show').onclick = show;
-document.getElementById('result').onclick = result;
+let f=0, t=0, r=0, s=0, res=0; // flags
+document.getElementById('flop').addEventListener("click", function() {
+    flop();
+    f=1;
+});
 
+document.getElementById('turn').addEventListener("click", function() {
+    if (f==1)
+    {
+        turn();
+        t=1;
+    }
+});
 
+document.getElementById('river').addEventListener("click", function() {
+    if (t==1)
+    {
+        river();
+        r=1;
+    }
+});
 
+document.getElementById('show').addEventListener("click", function() {
+    if (r==1)
+    {
+        show();
+        s=1;
+    }
+});
+
+document.getElementById('result').addEventListener("click", function() {
+    if (s==1 && res==0)
+    {
+        result();
+        res=1;
+    }
+});
+
+// document.getElementById('flop').onclick = flop;
+// document.getElementById('turn').onclick = turn;
+// document.getElementById('river').onclick = river;
+// document.getElementById('show').onclick = show;
+// document.getElementById('result').onclick = result;
 
 // document.getElementById('turn').onclick = function() {
 //     if (document.getElementById('flock').clicked == true) {
