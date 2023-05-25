@@ -44,3 +44,7 @@ The game is played with a standard deck of 52 cards, and each player is dealt tw
 
 If you would like to contribute to project, you can submit a pull request with your changes. Please make sure that your code follows the project's coding standards and that it has been thoroughly tested.
 If you have any questions or feedback, you can contact me at [mail](prathamloya12345@gmail.com).
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
